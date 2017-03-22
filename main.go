@@ -7,8 +7,6 @@ import (
     "os"
 )
 
-# This is a comment
-
 func handler(w http.ResponseWriter, r *http.Request) {
     fmt.Fprintf(w, "It's working, now go write some actual code you lazy person you.")
     l := log.New(os.Stdout, "[AAA] ", log.Ldate | log.Ltime)
